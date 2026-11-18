@@ -1,0 +1,8 @@
+run_id,command,run_status,asset_key,attempt_status,stage,network_bytes,artifact_id,error_code,error_message
+lab03-47e9ada7-f773-462b-8d26-7bf3f88ef195,acquire,succeeded,red,succeeded,complete,2097153,59c9437e300a3549f75913bc0b4eeace6430e4be531fe988dded691a43ee71db,,
+lab03-47e9ada7-f773-462b-8d26-7bf3f88ef195,acquire,succeeded,nir,succeeded,complete,2097153,dcfea4a7d5a3e6efc655301bc757ff7fe2477914191628bd3c8b81aabf39292e,,
+lab03-c6be5758-7d59-4123-afa3-3b9ef4221e83,verify,failed,red,failed,cache_verify,0,59c9437e300a3549f75913bc0b4eeace6430e4be531fe988dded691a43ee71db,FILE_MISSING,Recorded file is absent: red-59c9437e300a3549.tif
+lab03-c6be5758-7d59-4123-afa3-3b9ef4221e83,verify,failed,nir,reused,cache_verify,0,dcfea4a7d5a3e6efc655301bc757ff7fe2477914191628bd3c8b81aabf39292e,,
+lab03-034d6cba-0afb-4262-8c80-007411063fac,acquire,succeeded,red,failed,cache_verify,0,59c9437e300a3549f75913bc0b4eeace6430e4be531fe988dded691a43ee71db,FILE_MISSING,Recorded file is absent: red-59c9437e300a3549.tif
+lab03-034d6cba-0afb-4262-8c80-007411063fac,acquire,succeeded,red,succeeded,complete,2097153,59c9437e300a3549f75913bc0b4eeace6430e4be531fe988dded691a43ee71db,,
+lab03-034d6cba-0afb-4262-8c80-007411063fac,acquire,succeeded,nir,reused,cache_verify,0,dcfea4a7d5a3e6efc655301bc757ff7fe2477914191628bd3c8b81aabf39292e,,

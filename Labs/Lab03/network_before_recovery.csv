@@ -1,0 +1,3 @@
+run_id,run_status,asset_key,attempt_status,stage,network_bytes,error_code,error_message
+lab03-9d690826-289b-4262-9247-df73082aace1,failed,red,succeeded,complete,2097153,,
+lab03-9d690826-289b-4262-9247-df73082aace1,failed,nir,failed,read_window,262145,RANGE_READ_FAILED,Controlled network interruption after actual range responses
